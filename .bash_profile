@@ -11,6 +11,7 @@ export NVM_DIR="/Users/acburdine/.nvm"
 export EDITOR='vim'
 
 # Bash Customizations
+source /usr/local/etc/bash_completion.d/git-completions.bash
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h \[\033[33;1m\]\w \[\033[1;34m\]\$(__git_ps1)\[\033[m\] \$ "
